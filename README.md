@@ -2,37 +2,40 @@ html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Intro to CSS</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Styled Layout</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="main-header">
-    <h1>Welcome to My Styled Page</h1>
-    <p class="subtitle">Learning CSS Layout and Design</p>
+  <header class="site-header">
+    <h1>CSS Layout Example</h1>
+    <p>Responsive and Clean Design</p>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#" class="nav-link">Home</a></li>
-      <li><a href="#" class="nav-link">About</a></li>
-      <li><a href="#" class="nav-link">Contact</a></li>
-    </ul>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
   </nav>
 
-  <main id="main-content">
-    <section>
-      <h2>Why CSS Matters</h2>
-      <p>CSS helps transform plain HTML into beautiful, responsive, and user-friendly web pages.</p>
-      <img src="https://via.placeholder.com/300" alt="Sample image" class="styled-img">
+  <main class="main-container">
+    <section class="card">
+      <h2>Flexbox Layout</h2>
+      <p>This layout uses Flexbox to align sections side by side.</p>
+    </section>
+    <section class="card">
+      <h2>CSS Properties</h2>
+      <ul>
+        <li>color, font-family</li>
+        <li>margin, padding, border</li>
+        <li>display: flex</li>
+      </ul>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Styled Page</p>
+  <footer class="footer">
+&copy; 2025 Flex Layout. All rights reserved.
   </footer>
 </body>
 </html>
-
-
